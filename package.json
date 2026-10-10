@@ -1,0 +1,13 @@
+{
+  "name": "agri-text-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agri Text SMS simulator web app",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check agri_text_sms_simulator.js"
+  }
+}
